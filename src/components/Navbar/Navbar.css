@@ -63,7 +63,9 @@
     align-items: center;
     cursor: pointer;
     position: relative;
+    font-size: 60px;
 }
+
 
 .navbar .dropdown
 {
@@ -90,4 +92,33 @@
 .nav-dark
 {
     background: #1d1d1dee;
+}
+
+@media (max-width:850px)
+{
+    .navbar{
+        padding: 20px 4%;
+    }
+    .navbar-left ul{
+        display: none;
+    }
+    .navbar img {
+        height: 35px;
+        width: 150px;
+
+    };
+
+}
+
+@media (max-width:500px)
+{
+    .navbar img {
+        height: 25px;
+        width: 80px;
+    }
+    .navbar-right
+    {
+        gap: 5px;
+        
+    }
 }
