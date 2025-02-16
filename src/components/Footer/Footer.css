@@ -30,3 +30,35 @@
     color: rgb(150, 150, 150);
     font-size: 14px;
 }
+
+@media (max-width:800px)
+{
+    .footer-icons img
+    {
+        width: 35px;
+    }
+    .footer ul
+    {
+        grid-template-columns: auto auto auto;
+        gap: 7px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width:500px)
+{
+    .footer-icons img
+    {
+        width: 30px;
+    }
+    .footer ul
+    {
+        grid-template-columns: auto auto ;
+        gap: 7px;
+        font-size: 12px;
+    }
+    
+
+}

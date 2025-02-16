@@ -22,7 +22,7 @@
 
 .card-list img{
     width: 240px;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -35,4 +35,54 @@
     right: 10px;
     text-decoration: none;
     color: white;
+}
+
+@media(max-width:800px)
+{
+    .title-cards
+    {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .title-cards h2
+    {
+        font-size: 20px;
+    }
+    .card-list img
+    {
+        width: 170px ;
+    }
+    .card-list .card p
+    {
+        font-size: 13px;
+        bottom: 8px;
+        right: 5px;
+    }
+
+
+}
+
+@media(max-width:500px)
+{
+    .title-cards
+    {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .title-cards h2
+    {
+        font-size: 15px;
+    }
+    .card-list img
+    {
+        width: 130px ;
+    }
+    .card-list .card p
+    {
+        font-size: 11px;
+        bottom: 7px;
+        right: 4px;
+    }
+
+
 }
